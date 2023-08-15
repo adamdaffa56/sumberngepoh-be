@@ -13,7 +13,7 @@ type (
 		Nama       string    `json:"nama" gorm:"type:varchar(200)"`
 		HargaTiket int       `json:"harga_tiket"`
 		Alamat     string    `json:"alamat" gorm:"type:varchar(200)"`
-		Kontak     string    `json:"kontak" gorm:"type:varchar(15)"`
+		Kontak     string    `json:"kontak" gorm:"type:varchar(200)"`
 		Gambar     string    `json:"gambar"`
 		JamBuka    string    `json:"jam_buka"`
 		JamTutup   string    `json:"jam_tutup"`
